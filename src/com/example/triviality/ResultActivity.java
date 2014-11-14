@@ -1,7 +1,14 @@
 package com.example.triviality;
 
+import java.util.List;
+
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.app.Activity;
+import android.app.ActivityManager;
+import android.app.ActivityManager.RunningTaskInfo;
+import android.content.ComponentName;
+import android.content.Context;
 import android.content.Intent;
 import android.util.Log;
 import android.view.Menu;
@@ -12,6 +19,7 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.RatingBar;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class ResultActivity extends Activity implements OnClickListener{
 	@Override
@@ -55,8 +63,10 @@ public class ResultActivity extends Activity implements OnClickListener{
 
 	public void onClick(View v) {
 		// TODO Auto-generated method stub
-		Intent intent = new Intent(this, com.example.triviality.QuizActivity.class);
+		Intent intent = new Intent(this, com.example.triviality.SopranosQuizz.class);
 		
 		startActivity(intent);
 	}
+	
+
 }
