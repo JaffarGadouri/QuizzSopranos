@@ -3,17 +3,13 @@ package com.example.triviality;
 import java.util.Collections;
 import java.util.List;
 
-import android.media.MediaPlayer;
-import android.os.Bundle;
 import android.app.Activity;
-import android.app.ActivityManager;
-import android.app.ActivityManager.RunningTaskInfo;
-import android.content.ComponentName;
-import android.content.Context;
 import android.content.Intent;
+import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
 import android.view.View;
+import android.view.animation.TranslateAnimation;
 import android.widget.Button;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
@@ -43,6 +39,8 @@ public class QuizActivity extends Activity {
 		rdc = (RadioButton) findViewById(R.id.radio2);
 		butNext = (Button) findViewById(R.id.button1);
 		setQuestionView();
+        
+		
 		butNext.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
@@ -59,7 +57,7 @@ public class QuizActivity extends Activity {
 					Toast.makeText(getApplicationContext(), "You're wrong !",
 							Toast.LENGTH_SHORT).show();
 				}
-				if (qid < 5) {
+				if (qid < 10) {
 					currentQ = quesList.get(qid);
 					setQuestionView();
 				} else {
@@ -87,6 +85,15 @@ public class QuizActivity extends Activity {
 		rda.setText(currentQ.getOPTA());
 		rdb.setText(currentQ.getOPTB());
 		rdc.setText(currentQ.getOPTC());
+		 //animation des boutons
+    	TranslateAnimation anim = new TranslateAnimation(400, 0, 300, 0);
+    	anim.setStartOffset(320);
+    	anim.setFillAfter(true);
+        anim.setDuration(500);
+        txtQuestion.startAnimation(anim);
+        rda.startAnimation(anim);
+        rdb.startAnimation(anim);
+        rdc.startAnimation(anim);
 		qid++;
 	}
 
