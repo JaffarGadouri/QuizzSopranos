@@ -31,7 +31,7 @@
         android:layout_centerHorizontal="true"
         android:onClick="onClick"
         android:text="HighScore" />
-    
+
     <Button
         android:id="@+id/options"
         android:layout_width="198dp"
@@ -39,6 +39,6 @@
         android:layout_below="@+id/score"
         android:layout_centerHorizontal="true"
         android:onClick="onClick"
-        android:text="Options" />
+        android:text="Credits" />
 
 </RelativeLayout>

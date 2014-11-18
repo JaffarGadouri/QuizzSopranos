@@ -5,6 +5,7 @@ import java.util.List;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
@@ -24,7 +25,8 @@ public class QuizActivity extends Activity {
 	TextView txtQuestion;
 	RadioButton rda, rdb, rdc;
 	Button butNext;
-
+	MediaPlayer yourStereo;
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -39,8 +41,7 @@ public class QuizActivity extends Activity {
 		rdc = (RadioButton) findViewById(R.id.radio2);
 		butNext = (Button) findViewById(R.id.button1);
 		setQuestionView();
-        
-		
+
 		butNext.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
@@ -85,16 +86,31 @@ public class QuizActivity extends Activity {
 		rda.setText(currentQ.getOPTA());
 		rdb.setText(currentQ.getOPTB());
 		rdc.setText(currentQ.getOPTC());
-		 //animation des boutons
-    	TranslateAnimation anim = new TranslateAnimation(400, 0, 300, 0);
-    	anim.setStartOffset(320);
-    	anim.setFillAfter(true);
-        anim.setDuration(500);
-        txtQuestion.startAnimation(anim);
-        rda.startAnimation(anim);
-        rdb.startAnimation(anim);
-        rdc.startAnimation(anim);
+		// animation des boutons
+		TranslateAnimation anim = new TranslateAnimation(400, 0, 0, 0);
+		anim.setStartOffset(320);
+		anim.setFillAfter(true);
+		anim.setDuration(500);
+		txtQuestion.startAnimation(anim);
+		rda.startAnimation(anim);
+		rdb.startAnimation(anim);
+		rdc.startAnimation(anim);
 		qid++;
+	}
+	
+	@Override
+	protected void onPause() {
+		// TODO Auto-generated method stub
+		super.onPause();
+		yourStereo.stop();
+	}
+	
+	@Override
+	protected void onResume() {
+		// TODO Auto-generated method stub
+		super.onResume();
+		yourStereo = MediaPlayer.create(this, R.raw.theme);
+		yourStereo.start();
 	}
 
 }

@@ -47,17 +47,6 @@
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:textColor="#FFF" />
 
-        <TextView
-            android:id="@+id/textResult2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_below="@+id/imgscore"
-            android:layout_marginTop="42dp"
-            android:text="Large Text"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:textColor="#FFF" />
-
         <Button
             android:id="@+id/submit"
             style="?android:attr/buttonStyleSmall"
@@ -66,6 +55,17 @@
             android:layout_above="@+id/backbttn"
             android:layout_toRightOf="@+id/nickname"
             android:text="OK"
+            android:textColor="#FFF" />
+
+        <TextView
+            android:id="@+id/textResult2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView1"
+            android:layout_alignLeft="@+id/textView1"
+            android:layout_marginBottom="42dp"
+            android:text="Large Text"
+            android:textAppearance="?android:attr/textAppearanceLarge"
             android:textColor="#FFF" />
 
 </RelativeLayout>
