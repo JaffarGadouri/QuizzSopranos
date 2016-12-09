@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/salif/Documents/Git_Projects/quizz/QuizzSopranos/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/head.jpg",
+        "source": "/Users/salif/Documents/Git_Projects/quizz/QuizzSopranos/app/src/main/res/drawable-mdpi/head.jpg"
+    },
+    {
+        "merged": "/Users/salif/Documents/Git_Projects/quizz/QuizzSopranos/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/credits.jpg",
+        "source": "/Users/salif/Documents/Git_Projects/quizz/QuizzSopranos/app/src/main/res/drawable-mdpi/credits.jpg"
+    }
+]

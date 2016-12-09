@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Users/salif/Documents/Git_Projects/quizz/QuizzSopranos/app/build/intermediates/res/merged/debug/layout/activity_quiz.xml",
+        "source": "/Users/salif/Documents/Git_Projects/quizz/QuizzSopranos/app/src/main/res/layout/activity_quiz.xml"
+    },
+    {
+        "merged": "/Users/salif/Documents/Git_Projects/quizz/QuizzSopranos/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/Users/salif/Documents/Git_Projects/quizz/QuizzSopranos/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/salif/Documents/Git_Projects/quizz/QuizzSopranos/app/build/intermediates/res/merged/debug/layout/activity_options.xml",
+        "source": "/Users/salif/Documents/Git_Projects/quizz/QuizzSopranos/app/src/main/res/layout/activity_options.xml"
+    },
+    {
+        "merged": "/Users/salif/Documents/Git_Projects/quizz/QuizzSopranos/app/build/intermediates/res/merged/debug/layout/activity_score.xml",
+        "source": "/Users/salif/Documents/Git_Projects/quizz/QuizzSopranos/app/src/main/res/layout/activity_score.xml"
+    },
+    {
+        "merged": "/Users/salif/Documents/Git_Projects/quizz/QuizzSopranos/app/build/intermediates/res/merged/debug/layout/activity_result.xml",
+        "source": "/Users/salif/Documents/Git_Projects/quizz/QuizzSopranos/app/src/main/res/layout/activity_result.xml"
+    }
+]

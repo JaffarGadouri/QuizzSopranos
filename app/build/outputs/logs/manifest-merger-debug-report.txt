@@ -1,0 +1,85 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/salif/Documents/Git_Projects/quizz/QuizzSopranos/app/src/main/AndroidManifest.xml:2:1-43:12
+	package
+		ADDED from /Users/salif/Documents/Git_Projects/quizz/QuizzSopranos/app/src/main/AndroidManifest.xml:3:5-37
+		INJECTED from /Users/salif/Documents/Git_Projects/quizz/QuizzSopranos/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/salif/Documents/Git_Projects/quizz/QuizzSopranos/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/salif/Documents/Git_Projects/quizz/QuizzSopranos/app/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /Users/salif/Documents/Git_Projects/quizz/QuizzSopranos/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/salif/Documents/Git_Projects/quizz/QuizzSopranos/app/src/main/AndroidManifest.xml
+	android:versionCode
+		ADDED from /Users/salif/Documents/Git_Projects/quizz/QuizzSopranos/app/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /Users/salif/Documents/Git_Projects/quizz/QuizzSopranos/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/salif/Documents/Git_Projects/quizz/QuizzSopranos/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/salif/Documents/Git_Projects/quizz/QuizzSopranos/app/src/main/AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from /Users/salif/Documents/Git_Projects/quizz/QuizzSopranos/app/src/main/AndroidManifest.xml:6:5-8:41
+	android:targetSdkVersion
+		ADDED from /Users/salif/Documents/Git_Projects/quizz/QuizzSopranos/app/src/main/AndroidManifest.xml:8:9-38
+		INJECTED from /Users/salif/Documents/Git_Projects/quizz/QuizzSopranos/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/salif/Documents/Git_Projects/quizz/QuizzSopranos/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/salif/Documents/Git_Projects/quizz/QuizzSopranos/app/src/main/AndroidManifest.xml:7:9-35
+		INJECTED from /Users/salif/Documents/Git_Projects/quizz/QuizzSopranos/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/salif/Documents/Git_Projects/quizz/QuizzSopranos/app/src/main/AndroidManifest.xml
+application
+ADDED from /Users/salif/Documents/Git_Projects/quizz/QuizzSopranos/app/src/main/AndroidManifest.xml:10:5-41:19
+	android:label
+		ADDED from /Users/salif/Documents/Git_Projects/quizz/QuizzSopranos/app/src/main/AndroidManifest.xml:13:9-41
+	android:allowBackup
+		ADDED from /Users/salif/Documents/Git_Projects/quizz/QuizzSopranos/app/src/main/AndroidManifest.xml:11:9-35
+	android:icon
+		ADDED from /Users/salif/Documents/Git_Projects/quizz/QuizzSopranos/app/src/main/AndroidManifest.xml:12:9-45
+	android:theme
+		ADDED from /Users/salif/Documents/Git_Projects/quizz/QuizzSopranos/app/src/main/AndroidManifest.xml:14:9-40
+	android:logo
+		ADDED from /Users/salif/Documents/Git_Projects/quizz/QuizzSopranos/app/src/main/AndroidManifest.xml:14:41-70
+service#com.example.triviality.MusicService
+ADDED from /Users/salif/Documents/Git_Projects/quizz/QuizzSopranos/app/src/main/AndroidManifest.xml:15:9-71
+	android:enabled
+		ADDED from /Users/salif/Documents/Git_Projects/quizz/QuizzSopranos/app/src/main/AndroidManifest.xml:15:46-68
+	android:name
+		ADDED from /Users/salif/Documents/Git_Projects/quizz/QuizzSopranos/app/src/main/AndroidManifest.xml:15:18-45
+activity#com.example.triviality.QuizActivity
+ADDED from /Users/salif/Documents/Git_Projects/quizz/QuizzSopranos/app/src/main/AndroidManifest.xml:16:9-19:20
+	android:label
+		ADDED from /Users/salif/Documents/Git_Projects/quizz/QuizzSopranos/app/src/main/AndroidManifest.xml:18:13-45
+	android:name
+		ADDED from /Users/salif/Documents/Git_Projects/quizz/QuizzSopranos/app/src/main/AndroidManifest.xml:17:13-41
+activity#com.example.triviality.ResultActivity
+ADDED from /Users/salif/Documents/Git_Projects/quizz/QuizzSopranos/app/src/main/AndroidManifest.xml:20:9-23:20
+	android:label
+		ADDED from /Users/salif/Documents/Git_Projects/quizz/QuizzSopranos/app/src/main/AndroidManifest.xml:22:13-58
+	android:name
+		ADDED from /Users/salif/Documents/Git_Projects/quizz/QuizzSopranos/app/src/main/AndroidManifest.xml:21:13-43
+activity#com.example.triviality.SopranosQuizz
+ADDED from /Users/salif/Documents/Git_Projects/quizz/QuizzSopranos/app/src/main/AndroidManifest.xml:24:9-32:20
+	android:label
+		ADDED from /Users/salif/Documents/Git_Projects/quizz/QuizzSopranos/app/src/main/AndroidManifest.xml:26:13-56
+	android:name
+		ADDED from /Users/salif/Documents/Git_Projects/quizz/QuizzSopranos/app/src/main/AndroidManifest.xml:25:13-42
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/salif/Documents/Git_Projects/quizz/QuizzSopranos/app/src/main/AndroidManifest.xml:27:13-31:29
+action#android.intent.action.MAIN
+ADDED from /Users/salif/Documents/Git_Projects/quizz/QuizzSopranos/app/src/main/AndroidManifest.xml:28:17-69
+	android:name
+		ADDED from /Users/salif/Documents/Git_Projects/quizz/QuizzSopranos/app/src/main/AndroidManifest.xml:28:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/salif/Documents/Git_Projects/quizz/QuizzSopranos/app/src/main/AndroidManifest.xml:30:17-77
+	android:name
+		ADDED from /Users/salif/Documents/Git_Projects/quizz/QuizzSopranos/app/src/main/AndroidManifest.xml:30:27-74
+activity#com.example.triviality.OptionsActivity
+ADDED from /Users/salif/Documents/Git_Projects/quizz/QuizzSopranos/app/src/main/AndroidManifest.xml:33:9-36:20
+	android:label
+		ADDED from /Users/salif/Documents/Git_Projects/quizz/QuizzSopranos/app/src/main/AndroidManifest.xml:35:13-59
+	android:name
+		ADDED from /Users/salif/Documents/Git_Projects/quizz/QuizzSopranos/app/src/main/AndroidManifest.xml:34:13-44
+activity#com.example.triviality.ScoreActivity
+ADDED from /Users/salif/Documents/Git_Projects/quizz/QuizzSopranos/app/src/main/AndroidManifest.xml:37:9-40:20
+	android:label
+		ADDED from /Users/salif/Documents/Git_Projects/quizz/QuizzSopranos/app/src/main/AndroidManifest.xml:39:13-57
+	android:name
+		ADDED from /Users/salif/Documents/Git_Projects/quizz/QuizzSopranos/app/src/main/AndroidManifest.xml:38:13-42
