@@ -1,0 +1,141 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea/
+* .idea/compiler.xml
+* .idea/copyright/
+* .idea/copyright/profiles_settings.xml
+* .idea/encodings.xml
+* .idea/misc.xml
+* .idea/workspace.xml
+* README.md
+* app/
+* app/build.gradle
+* app/src/
+* app/src/main/
+* app/src/main/AndroidManifest.xml
+* app/src/main/java/
+* app/src/main/java/com/
+* app/src/main/java/com/example/
+* app/src/main/java/com/example/triviality/
+* app/src/main/java/com/example/triviality/DbHelper.java
+* app/src/main/java/com/example/triviality/OptionsActivity.java
+* app/src/main/java/com/example/triviality/Question.java
+* app/src/main/java/com/example/triviality/QuizActivity.java
+* app/src/main/java/com/example/triviality/ResultActivity.java
+* app/src/main/java/com/example/triviality/ScoreActivity.java
+* app/src/main/java/com/example/triviality/SopranosQuizz.java
+* app/src/main/res/
+* app/src/main/res/drawable-hdpi/
+* app/src/main/res/drawable-hdpi/ic_launcher.png
+* app/src/main/res/drawable-ldpi/
+* app/src/main/res/drawable-ldpi/ic_launcher.png
+* app/src/main/res/drawable-mdpi/
+* app/src/main/res/drawable-mdpi/credits.jpg
+* app/src/main/res/drawable-mdpi/head.jpg
+* app/src/main/res/drawable-mdpi/ic_launcher.png
+* app/src/main/res/drawable-mdpi/logo.png
+* app/src/main/res/drawable-mdpi/sop10.png
+* app/src/main/res/drawable-mdpi/sop2.png
+* app/src/main/res/drawable-mdpi/sop4.png
+* app/src/main/res/drawable-mdpi/sop6.png
+* app/src/main/res/drawable-mdpi/sop8.png
+* app/src/main/res/drawable-mdpi/sop9.png
+* app/src/main/res/drawable-xhdpi/
+* app/src/main/res/drawable-xhdpi/ic_launcher.png
+* app/src/main/res/drawable-xxhdpi/
+* app/src/main/res/drawable-xxhdpi/ic_launcher.png
+* app/src/main/res/layout/
+* app/src/main/res/layout/activity_main.xml
+* app/src/main/res/layout/activity_options.xml
+* app/src/main/res/layout/activity_quiz.xml
+* app/src/main/res/layout/activity_result.xml
+* app/src/main/res/layout/activity_score.xml
+* app/src/main/res/menu/
+* app/src/main/res/menu/activity_quiz.xml
+* app/src/main/res/menu/activity_result.xml
+* app/src/main/res/menu/main.xml
+* app/src/main/res/menu/options.xml
+* app/src/main/res/menu/score.xml
+* app/src/main/res/raw/
+* app/src/main/res/raw/theme.ogg
+* app/src/main/res/values-v11/
+* app/src/main/res/values-v11/styles.xml
+* app/src/main/res/values-v14/
+* app/src/main/res/values-v14/styles.xml
+* app/src/main/res/values-w820dp/
+* app/src/main/res/values-w820dp/dimens.xml
+* app/src/main/res/values/
+* app/src/main/res/values/dimens.xml
+* app/src/main/res/values/strings.xml
+* app/src/main/res/values/styles.xml
+* app/src/main/resources/
+* app/src/main/resources/.idea/
+* app/src/main/resources/.idea/compiler.xml
+* app/src/main/resources/.idea/copyright/
+* app/src/main/resources/.idea/copyright/profiles_settings.xml
+* app/src/main/resources/.idea/encodings.xml
+* app/src/main/resources/.idea/misc.xml
+* app/src/main/resources/.idea/modules.xml
+* app/src/main/resources/.idea/src.iml
+* app/src/main/resources/.idea/workspace.xml
+* build.gradle
+* gradle/
+* gradle/wrapper/
+* gradle/wrapper/gradle-wrapper.jar
+* gradle/wrapper/gradle-wrapper.properties
+* gradlew
+* gradlew.bat
+* ic_launcher-web .png
+* ic_launcher-web.png
+* proguard-project.txt
+* settings.gradle
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:18.0.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+* src/.idea/compiler.xml => app/src/main/resources/.idea/compiler.xml
+* src/.idea/copyright/profiles_settings.xml => app/src/main/resources/.idea/copyright/profiles_settings.xml
+* src/.idea/encodings.xml => app/src/main/resources/.idea/encodings.xml
+* src/.idea/misc.xml => app/src/main/resources/.idea/misc.xml
+* src/.idea/modules.xml => app/src/main/resources/.idea/modules.xml
+* src/.idea/src.iml => app/src/main/resources/.idea/src.iml
+* src/.idea/workspace.xml => app/src/main/resources/.idea/workspace.xml
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
